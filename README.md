@@ -35,7 +35,7 @@ The challenge provides an image with no obvious information visible in its conte
 I downloaded the image and used `exiftool` to examine its metadata. The output contained the third flag.
 
 ```bash
-exiftool <image-filename>
+exiftool photo.jpg
 ```
 
 **Key takeaway:** Image files can contain metadata beyond their visible contents. Examining this metadata is a useful first step when investigating files for hidden or overlooked information.
